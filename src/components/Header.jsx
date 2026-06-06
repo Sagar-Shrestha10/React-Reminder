@@ -19,7 +19,7 @@ const Header = () => {
     <header className="bg-white fixed w-full z-20 top-0 inset-s-0 shadow">
       <div className="container flex flex-wrap max-w-4xl smx-auto items-center mx-auto justify-between p-4">
         <Link to={HOME_ROUTE}>
-          <h1 className="text-yellow-600 sm:text-3xl font-semibold">Reminders</h1>
+          <h1 className="text-yellow-600 text-3xl font-semibold">Reminders</h1>
         </Link>
         <div className="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
           <Link
