@@ -9,7 +9,7 @@ const EditPage = () => {
 
     
   return (
-    <section className="max-w-xl sm:mx-auto ml-5 shadow-2xl p-5">
+    <section className="max-w-xl sm:mx-auto mx-5 shadow-2xl p-5">
       <h2 className="mb-4 text-xl font-bold text-gray-900">
         Update Reminder
       </h2>
