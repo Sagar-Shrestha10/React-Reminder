@@ -26,7 +26,7 @@ const ReminderCard = ({
 
   return (
     <div
-      className={`shadow rounded-2xl p-6  hover:-translate-y-1 transition-all duration-200 text-xs ${cardColor}`}
+      className={`shadow rounded-2xl p-6 mx-3 hover:-translate-y-1 transition-all duration-200 text-xs ${cardColor}`}
     >
       <div className="flex justify-between items-start mb-2 gap-x-3">
         <h1 className="sm:text-3xl text-xl  font-medium">{title}</h1>
