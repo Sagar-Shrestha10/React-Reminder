@@ -1,0 +1,21 @@
+import { useParams } from "react-router";
+import Form from "../components/Form"
+import useReminderStore from "../store/reminderStore";
+
+
+const EditPage = () => {
+  const params= useParams()
+    const reminder = useReminderStore((state) => state.getReminderById(params.id));
+
+    
+  return (
+    <section className="max-w-xl sm:mx-auto ml-5 shadow-2xl p-5">
+      <h2 className="mb-4 text-xl font-bold text-gray-900">
+        Update Reminder
+      </h2>
+      <Form isEditing = {true} reminder={reminder}/>
+    </section>
+  )
+}
+
+export default EditPage
